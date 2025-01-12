@@ -46,7 +46,7 @@ services:
       CLOUDINARY_API_SECRET: WF88TQpJyKATyZCv4o4M0dx3xEQ
       CLOUDINARY_NAME: derpgrwbe
     ports:
-      - "8082:8080"
+      - "8083:8080"
     depends_on:
       - mysql
 volumes:
